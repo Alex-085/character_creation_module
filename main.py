@@ -63,7 +63,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
-    """Выбор имени и класса персонажа."""
+    """Выбор имени и класса персонажа игры."""
     approve_choice: str = ''
     char_class: str = ''
     while approve_choice != 'y':
